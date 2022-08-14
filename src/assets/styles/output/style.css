@@ -486,7 +486,16 @@ a {
   text-decoration-line: underline;
   text-underline-offset: 4px;
 }
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(33 33 33 / var(--tw-text-opacity));
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
 }
